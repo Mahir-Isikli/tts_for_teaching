@@ -36,7 +36,7 @@ The following steps should be performed to prepare your system.
 Run the following command to try it out: 
 
    ```bash
-    python azure_tts\azure_tts_create_audio.py --input_dir sample_text --out_dir output
+    python azure_tts/azure_tts_create_audio.py --input_dir sample_text/ --out_dir out
    ```
 
 `input_dir` the directory contain all SSML files
